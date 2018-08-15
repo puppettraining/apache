@@ -15,4 +15,5 @@ class apache::config (
 		ensure => file,
 		content => template($vhostsource),
 	}
+}
 
